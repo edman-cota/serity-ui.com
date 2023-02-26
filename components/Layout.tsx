@@ -4,12 +4,12 @@ import Sidebar from './Sidebar'
 
 const Layout = ({ children }: any) => {
   return (
-    <div className='bg-white dark:bg-slate-900'>
+    <div className='bg-white dark:bg-slate-900 '>
       <Navbar />
       <div className='max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8'>
         <Sidebar />
         <div className='lg:pl-[19.5rem] '>
-          <main className='max-w-3xl mx-auto relative z-20 flex flex-col overflow-hidden py-10 xl:max-w-none text-white'>
+          <main className='w-full mx-auto relative z-20 flex  overflow-hidden py-10  text-white'>
             {children}
           </main>
           <footer className='text-sm leading-6 mt-16'>

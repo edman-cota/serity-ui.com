@@ -2,7 +2,35 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap'); */
 
+:root {
+  --primary: rebeccapurple;
+  --secondary: cornflowerblue;
+}
+
 @tailwind base;
+
+/*
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+
+*::-webkit-scrollbar {
+  width: 18px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+  padding-top: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c7c5d3;
+  border-radius: 14px;
+  border: 5px solid white;
+} */
+
 @tailwind components;
 @tailwind utilities;
 

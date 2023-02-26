@@ -41,8 +41,8 @@ const Sidebar = () => {
     },
   ]
   return (
-    <aside className='hidden lg:block fixed z-20 inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto w-[19.5rem] pb-10 px-8 overflow-auto'>
-      <div className='flex justify-center mb-10'></div>
+    <aside className='hidden lg:block fixed z-20 mt-4 inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto w-[19.5rem] pb-10 px-8 overflow-auto scrollbar scrollbar-thumb-[#c7c5d3] dark:scrollbar-thumb-slate-800 scrollbar-track-white dark:scrollbar-track-slate-900 scrollbar-thumb-rounded-md scrollbar-w-[10px]'>
+      <div className='flex justify-center mb-6'></div>
       <div className='flex items-center rounded-md bg-slate-200 dark:bg-slate-800 mt-6 px-4 py-2'>
         <BsSearch className='text-slate-400 dark:text-white text-base block float-left cursor-pointer mr-3 ' />
         <input

@@ -29,5 +29,5 @@ module.exports = {
       'fira-code': ['Fira Code'],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
 }
